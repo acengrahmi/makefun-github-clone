@@ -1,0 +1,3 @@
+# make.fun entry: github-core-clone-01
+
+A standalone GitHub-compatible git forge in one Python 3 process (standard library only, no UI): git smart HTTP (protocol v2 and v0 — ls-refs, fetch with shallow/deepen, receive-pack with report-status and fast-forward enforcement, full pack read/write), the REST v3 API (repos, branches, commits, refs, contents, labels, issues, comments, pull requests with true 3-way squash merges), a GraphQL endpoint (connections with cursors, mutations, node lookups, introspection), and MCP — all over one shared git object store, with the harness lifecycle the kit defines (register, serve, exit cleanly when done).
